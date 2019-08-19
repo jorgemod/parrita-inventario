@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="parritastyle.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-  <title>INVENTARIO</title>
+  <title>ALTA</title>
 </head>
 <body>
-  <H1>INVENTARIO</H1>
+  <H1>DAR DE ALTA</H1>
   <div id="contenido">
     <form action="conexion.php" method="post" id="form">
       <p>Producto</p>
