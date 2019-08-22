@@ -7,6 +7,6 @@ class Alta extends CI_Controller
 	}
 	public function index()
 	{
-			$this->load->view('Mineria/inventario');
+			$this->load->view('plotting-mathematical-functions');
 	}
 }

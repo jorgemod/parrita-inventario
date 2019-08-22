@@ -24,7 +24,7 @@ class Main extends CI_Controller {
     public function employees()
     {
         $crud = new grocery_CRUD();
-        $crud->set_table('employees');
+        $crud->set_table('inventario');
         $output = $crud->render();
         $this->_example_output($output);
     }

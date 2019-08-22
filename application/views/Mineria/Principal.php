@@ -10,11 +10,11 @@
 	<h1><?= $titulo?></h1>
 	<div id="contenido">
 			<a href="<?= base_url()?>Alta">
-					<Button>ALTA</Button>
+					<Button>Regresion Lineal</Button>
 			</a>
 			<br>
 			<a href="<?= base_url()?>Main/employees">
-					<button>BAJA</button>
+					<button>Datos</button>
 			</a>
 			<?php //get_titulo()?>
 	</div>
