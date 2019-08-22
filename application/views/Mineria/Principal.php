@@ -14,7 +14,10 @@
 			</a>
 			<br>
 			<a href="<?= base_url()?>Main/employees">
-					<button>Datos</button>
+					<button>Tabla inventario</button>
+			</a>
+			<a href="<?= base_url()?>Main/invent">
+					<button>Tabla invent</button>
 			</a>
 			<?php //get_titulo()?>
 	</div>

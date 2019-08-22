@@ -33,4 +33,12 @@ class Main extends CI_Controller {
     {
         $this->load->view('our_template.php',$output);
     }
+
+    public function invent()
+    {
+        $crud = new grocery_CRUD();
+        $crud->set_table('invent');
+        $output = $crud->render();
+        $this->_example_output($output);
+    }
 }
