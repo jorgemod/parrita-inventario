@@ -9,7 +9,7 @@ class Welcome extends CI_Controller
 	public function index()
 	{
 		$informacion = ["titulo" => "Inventario Mineria"];
-		//$this->load->view('Mineria/datos_aleatorios');
-		$this->load->view('Mineria/Principal', $informacion);
+		$this->load->view('Mineria/datos_aleatorios');
+		//$this->load->view('Mineria/Principal', $informacion);
 	}
 }
